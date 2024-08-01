@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
   void _createZipFile() async {
     final tempDir = Directory.systemTemp;
     final archiveFile =
-        File(path.join(tempDir.path, 'create-archive-sync.zip'));
+        File(path.join(tempDir.path, 'create-archive-syncasdfasd.zip'));
     final photoData = await rootBundle.load('assets/images/photo1.png');
     final photoFile = File(path.join(tempDir.path, 'image.png'));
     await photoFile.writeAsBytes(photoData.buffer.asUint8List());
